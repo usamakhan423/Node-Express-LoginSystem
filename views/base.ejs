@@ -1,0 +1,27 @@
+<%-include('header')-%>
+
+<div class="container">
+  <div class="heading">
+    <h1>Login System</h1>
+    <span>Login for the existing users</span>
+  </div>
+
+  <form action="/route/login" method="POST">
+    <div class="inputs">
+      <input
+        type="email"
+        name="email"
+        placeholder="email"
+      />
+      <small>Register email address</small>
+      <input
+        type="password"
+        name="password"
+        placeholder="password"
+      />
+    </div>
+    <button type="submit" class="btn">Submit</button>
+  </form>
+</div>
+
+<%-include('header')-%>
